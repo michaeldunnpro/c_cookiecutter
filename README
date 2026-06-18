@@ -1,0 +1,13 @@
+# Basic C Project Template
+This is a basic C project template for use on UNIX-like systems that use the 
+GNU Compiler (gcc). It is purposely as bare-bones as possible, and forgoes a 
+meta-build system (e.g., CMake) in favor of simplicity.
+
+The basic project structure consists of a directory with 'bin' and 
+'src' directories. All '*.c' and '*.h' files should be placed directly
+into the 'src' directory. Executables and linker files are output in
+'bin' at compile time.
+
+# Usage
+
+Still working on this section.

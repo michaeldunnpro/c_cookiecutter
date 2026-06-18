@@ -1,0 +1,6 @@
+{
+    "author_name": "Michael Dunn",
+    "package_name": "my_c_package",
+    "year" : "{% now 'utc', '%Y' %}",
+    "_extensions": ["cookiecutter.extensions.TimeExtension"]
+}
