@@ -16,14 +16,6 @@ To clone the template, run the following command in your terminal:
 cookiecutter gh:michaeldunnpro/c_cookiecutter
 ```
 
-Follow the prompts to customize your project. After the project is generated, navigate to the project directory and run:
-
-```bash
-make
-```
-
-To run the project, use:
-
-```bash
-make run
-```
+Follow the prompts to customize your project. After the project is generated,
+you can navigate to the project directory and run `make` to compile an
+executable, or `make run` to run it directly.
