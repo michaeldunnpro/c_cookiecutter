@@ -27,5 +27,3 @@ To run the project, use:
 ```bash
 make run
 ```
-
-When writing code, place all source files ('.c' and '.h') in the 'src' directory. The Makefile will automatically compile all source files in 'src' and output the executable to the 'bin' directory.
