@@ -31,6 +31,12 @@ $(BINDIR)/%.o: $(SRCDIR)/%.c
 clean:
 	rm -rf $(BINDIR)/*
 # ==============================================================================
+# Run Rule
+# ==============================================================================
+.PHONY: run # Mark 'run' as a phony target to avoid conflicts with files
+run: all
+	./$(BINDIR)/$(TARGET)
+# ==============================================================================
 # Help Rule
 # ==============================================================================
 .PHONY: help # Mark 'help' as a phony target to avoid conflicts with files
@@ -39,5 +45,6 @@ help:
 	@echo "Targets:"
 	@echo "  all     - Build the project (default)"
 	@echo "  clean   - Remove all build artifacts"
+	@echo "  run     - Build and run the project"
 	@echo "  help    - Show this help message"
 # ==============================================================================
