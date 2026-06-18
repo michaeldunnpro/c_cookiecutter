@@ -17,5 +17,6 @@ cookiecutter gh:michaeldunnpro/c_cookiecutter
 ```
 
 Follow the prompts to customize your project. After the project is generated,
-you can navigate to the project directory and run `make` to compile an
-executable, or `make run` to run it directly.
+you can navigate to the project directory and run `make` to compile 
+an executable, or `make clean` to clean up. Documentation for other commands 
+is shown by invoking `make help`.
