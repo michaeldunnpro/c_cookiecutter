@@ -13,7 +13,7 @@ into the 'src' directory. Executables and linker files are output in
 To clone the template, run the following command in your terminal:
 
 ```bash
-cookiecutter gh:michaeldunnpro/c_cookiecutter
+uvx cookiecutter gh:michaeldunnpro/c_cookiecutter
 ```
 
 Follow the prompts to customize your project. After the project is generated,
