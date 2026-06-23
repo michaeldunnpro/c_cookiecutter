@@ -1,7 +1,8 @@
+#include "main.h"
 #include <stdio.h>
 
 int main() {
-    // Template for a main function, with a print statement.
-    printf("Hello, World!\n");
-    return 0;
+  // Template for a main function, with a print statement.
+  printf("Hello, World!\n");
+  return 0;
 }
